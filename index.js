@@ -24,3 +24,7 @@ $('a[href*=\\#]:not([href=\\#])').click(function () {
 $('.carousel').carousel({
   interval: 2000
 })
+
+$(document).ready(function(){
+    $("[data-toggle=tooltip]").tooltip();
+});
