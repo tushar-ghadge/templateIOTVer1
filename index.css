@@ -84,4 +84,8 @@ body{
     /*Ketki's section ends */
 
     /*Sahil's section starts */
+    .carousel-control.left, .carousel-control.right{
+				background-image:none;
+		
+		}
     /*Sahil's section ends */
