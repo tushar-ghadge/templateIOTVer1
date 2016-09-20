@@ -6,7 +6,8 @@
     <title>IoT Contest 2017</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href="index.css" rel="stylesheet" type="text/css"/>  
+    <link href="index.css" rel="stylesheet" type="text/css"/> 
+    
 </head>
 <body>
     <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
@@ -45,13 +46,13 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                          <img src="http://placehold.it/850x500" alt="First slide">
+                          <img src="http://placehold.it/850x540" alt="First slide">
                       </div>
                       <div class="item">
-                          <img src="http://placehold.it/850x500" alt="Second slide">
+                          <img src="http://placehold.it/850x540" alt="Second slide">
                       </div>
                       <div class="item">
-                          <img src="http://placehold.it/850x500" alt="Third slide">
+                          <img src="http://placehold.it/850x540" alt="Third slide">
                       </div>
                   </div>
                   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -65,25 +66,36 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-default" id = "newsPanel">
-                <div class="panel-heading"> <span><i class="fa fa-bullhorn" aria-hidden="true"></i></span><b> Notifications</b></div>
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <ul id="demo" style="overflow-y: hidden; height: 210px;">
-                                <li class="news-item">Curabitur porttitor ante eget hendrerit adipiscing. Maecenas at magna accumsan,
-                                    rhoncus neque id, fringilla dolor. <a href="#">Read more...</a>
-                                </li>
-                                <li class="news-item">Curabitur porttitor ante eget hendrerit adipiscing. Maecenas  at magna accumsan,rhoncus neque id, fringilla dolor. <a href="#">Read more...</a>
-                                </li>
-                                <li class="news-item">Praesent ornare nisl lorem, ut condimentum lectus gravida ut. Ut velit nunc, vehicula volutpat laoreet vel, consequat eu mauris. <a href="#">Read more...</a>
-                                </li>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default" id = "newsPanel">
+                        <div class="panel-heading"> <span><i class="fa fa-bullhorn" aria-hidden="true"></i></span><b> Notifications</b></div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <ul id="demo" style="overflow-y: hidden; height: 210px;">
+                                        <li class="news-item">Curabitur porttitor ante eget hendrerit adipiscing. Maecenas at magna accumsan,
+                                            rhoncus neque id, fringilla dolor. <a href="#">Read more...</a>
+                                        </li>
+                                        <li class="news-item">Curabitur porttitor ante eget hendrerit adipiscing. Maecenas  at magna accumsan,rhoncus neque id, fringilla dolor. <a href="#">Read more...</a>
+                                        </li>
+                                        <li class="news-item">Praesent ornare nisl lorem, ut condimentum lectus gravida ut. Ut velit nunc, vehicula volutpat laoreet vel, consequat eu mauris. <a href="#">Read more...</a>
+                                        </li>
 
-                            </ul>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
+                        <div class="panel-footer"> <ul class="pagination pull-right" style="margin: 0px;"><li><a href="#" class="prev"><span class="glyphicon glyphicon-chevron-down"></span></a></li><li><a href="#" class="next"><span class="glyphicon glyphicon-chevron-up"></span></a></li></ul><div class="clearfix"></div></div>
                     </div>
                 </div>
-                <div class="panel-footer"> <ul class="pagination pull-right" style="margin: 0px;"><li><a href="#" class="prev"><span class="glyphicon glyphicon-chevron-down"></span></a></li><li><a href="#" class="next"><span class="glyphicon glyphicon-chevron-up"></span></a></li></ul><div class="clearfix"></div></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="cloudTags"></div>    
+                </div>
+                
             </div>
         </div>
     </div>
@@ -91,31 +103,34 @@
 </section>
 <section class="container-fluid" id="section2">
     <div class="callout rule">
-                <span class = "hrText">Events</span>
+        <span class = "hrText">Events</span>
     </div>
     
 </section>
 <section class="container-fluid" id="section3">
-        <div class="callout rule">
-            <span class = "hrText">Submit Proposal</span>        
-        </div>
+    <div class="callout rule">
+        <span class = "hrText">Submit Proposal</span>        
+    </div>
     
 </section>
 <section class="container-fluid" id="section4">
-        <div class="callout rule">
-            <span class = "hrText">Video Upload</span>
-        </div>
+    <div class="callout rule">
+        <span class = "hrText">Video Upload</span>
+    </div>
 </section>
 <section class="container-fluid" id="section5">
     <div class="callout rule">
-            <span class = "hrText">Evaluation</span>
-        </div>
+        <span class = "hrText">Evaluation</span>
+    </div>
 </section>
 <div id = "footer" class="text-center">
     <span>©2016 - 2017 All rights reserved.</span>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="http://mistic100.github.io/jQCloud/dist/jqcloud2/dist/jqcloud.min.css">
+<script src="http://mistic100.github.io/jQCloud/dist/jqcloud2/dist/jqcloud.min.js"></script>
 <script src="index.js"></script>
 </body>
 </html>

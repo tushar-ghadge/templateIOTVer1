@@ -24,3 +24,18 @@ $('a[href*=\\#]:not([href=\\#])').click(function () {
 $('.carousel').carousel({
   interval: 2000
 })
+
+var words = [
+  {text: "IoT", weight: 13},
+  {text: "Reliance", weight: 10.5},
+  {text: "SPIT", weight: 9.4},
+  {text: "Contest", weight: 8},
+  {text: "Win", weight: 6.2},
+  {text: "Prizes", weight: 7},
+  {text: "2017", weight: 5}
+  /* ... */
+];
+
+$('#cloudTags').jQCloud(words,{
+  height: 200
+});
