@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
   <html>
   <head>
       <meta charset="utf-8">
@@ -147,12 +147,208 @@
       <div class="callout rule">
           <span class = "hrText">Submit Proposal</span>        
       </div>
+      <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div class="form-group">
+                        <div class="row">
+                            <input type="text" name="txtName" id="txtName" tabindex="1" class="form-control" placeholder="Full Name">
+                        </div><br>
+                        <div class="row">
+                            <input type="email" name="txtEmailId" id="txtEmailId" tabindex="2" class="form-control" placeholder="Email Id">
+                        </div><br>
+                        <div class="row">
+                            <input type="text" name="txtPhnNo" id="txtPhnNO" tabindex="3" class="form-control" placeholder="Phone number" pattern="[7-9]{1}[0-9]{9}" >
+                        </div><br>
+                        
+                        <div class="row">
+                            <input type="text" name="txtProjectName" id="txtProjectName" tabindex="4" class="form-control" placeholder="project name">
+                        </div><br>
+                        
+                     <div class="row">
+                        <div class="form-group col-sm-6" style="padding-left:0px;">
+                             <label for="bill-city">City</label>
+                                <input type="text" class="form-control" id="bill-city" placeholder="City">
+                        </div>
+                        <div class="form-group col-sm-6" style="padding-right:0px;anch">
+                            <label for="bill-state">State</label>
+                            <input type="text" class="form-control" id="bill-state" placeholder="State">
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div ><label>Important Note</label></div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> File should be in pdf format</li>
+                        <li class="list-group-item"><span><i class="fa fa-hand-o-right" aria-hidden="true"></i></span> Size should not be greater than 200mb</li>
+                        
+                    </ul>
+                    </div>
+                    <div class="row">
+                        <label class="col-sm-6 col-sm-offset-3">upload file comprising your idea</label><br>
+                            <div class="col-sm-6 col-sm-offset-3 fileUpload btn btn-default">
+                                <span class="glyphicon glyphicon-upload"></span> Upload file
+                                    <input type="file" id="uploadFile" />
+                            </div>
+                    </div>
+
+                </div>
+
+            </div>
+                <div class="form-group">
+                    <div class="wrapper">
+                        <div class="col-md-12" style="text-align: center;">
+                            <input class="btn btn-primary btn-lg" type="submit" name="btnSubmit" id="btnSubmit" tabindex="4" class="form-control btn btn-login" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
       
   </section>
   <section class="container-fluid" id="section4">
       <div class="callout rule">
           <span class = "hrText">Evaluation</span>
       </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 evaluation-header">
+        <div class="hrText text-center">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 project-details">
+            <h3 class='text-center'><span class="label label-default">PROJECT DETAILS</span></h3>
+            <section class="details">
+                <div class=" col-md-9 col-lg-9 ">
+                    <table class="table table-user-information">
+                        <tbody>
+                        <tr>
+                            <td>Team Name:</td>
+                            <td>Team Eleven</td>
+                        </tr>
+                        <tr>
+                            <td>Project Name:</td>
+                            <td>Motion Sensor</td>
+                        </tr>
+                        <tr>
+                            <td>Short Project Description:</td>
+                            <td> Rasberry Pi project with a great performance for etc..</td>
+                        </tr>
+                        <tr>
+                            <td>Team Size</td>
+                            <td>5</td>
+                        </tr>
+
+                        <tr>
+                            <td>Email</td>
+                            <td><a href="mailto:teameleven@gmail.com">teameleven@gmail.com</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="documents">
+
+                <div class=" col-md-9 col-lg-9 ">
+                    <h3> Documents Submitted :</h3>
+                    <table class="table table-user-documents">
+                        <tbody>
+                        <tr>
+                            <td><b> Project Info </b></td>
+                            <td><b> Team Info </b></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-file-word-o fa-5x fa-contents" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-file-pdf-o fa-5x fa-contents" aria-hidden="true"></i></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class=" col-md-9 col-lg-9 ">
+                    <table class="table table-user-videos">
+                        <tbody>
+                        <tr>
+                            <td><b> Video Presentation </b></td>
+
+                        </tr>
+                        <tr>
+                            <td><i class="fa fa-file-video-o fa-5x fa-contents" aria-hidden="true"></i></td>
+
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </section>
+        </div>
+        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 project-scoresheet">
+
+            <h3 class='text-center'><span class="label label-default sub-header">PROJECT SCORE CARD</span></h3>
+            <section class="parameters">
+                <div class=" col-md-9 col-lg-9 ">
+                    <table class="table table-user-information">
+                        <tbody>
+                        <tr>
+                            <td>Paramter 1:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Paramter 2:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Paramter 3:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Paramter 4:</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td>Paramter 5:</td>
+                            <td></td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                    <div class="row">
+
+                        <div class="col-md-12 col-lg-12">
+                            <div class="widget-area no-padding blank">
+                                <div class="status-upload">
+                                    <form>
+                                        <textarea placeholder="What do you think about the project?"></textarea>
+                                        <ul>
+                                            <li><a title="" data-toggle="tooltip" data-placement="bottom"
+                                                   data-original-title="Audio"><i class="fa fa-music"></i></a></li>
+                                            <li><a title="" data-toggle="tooltip" data-placement="bottom"
+                                                   data-original-title="Video"><i class="fa fa-video-camera"></i></a>
+                                            </li>
+                                            <li><a title="" data-toggle="tooltip" data-placement="bottom"
+                                                   data-original-title="Sound Record"><i
+                                                    class="fa fa-microphone"></i></a></li>
+                                            <li><a title="" data-toggle="tooltip" data-placement="bottom"
+                                                   data-original-title="Picture"><i class="fa fa-picture-o"></i></a>
+                                            </li>
+                                        </ul>
+                                        <button type="submit" class="btn btn-success green"><i class="fa fa-share"></i>
+                                            Share
+                                        </button>
+                                    </form>
+                                </div><!-- Status Upload  -->
+                            </div><!-- Widget Area -->
+                        </div>
+
+                    </div>
+                </div>
+
+        </div>
+    </div>
   </section>
   <section class="container-fluid" id="section5">
       <div class="callout rule">
@@ -225,7 +421,7 @@
               </div>  
             </div><!-- end accordion -->
           </div>
-        </div>
+        </div>    
       </div>
     </div>
   </section>
@@ -238,6 +434,7 @@
 
   <link rel="stylesheet" href="http://mistic100.github.io/jQCloud/dist/jqcloud2/dist/jqcloud.min.css">
   <script src="http://mistic100.github.io/jQCloud/dist/jqcloud2/dist/jqcloud.min.js"></script>
+  <script src="https://use.fontawesome.com/257ec39118.js"></script>
   <script src="index.js"></script>
   </body>
   </html>
