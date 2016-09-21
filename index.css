@@ -9,11 +9,15 @@ body{
 	color: #FFF !important;
 }
 .navbar-trans li>a:hover {
-	background-color:#DD0000;
+	background-color:#719CC7;
 	color:#fff;
 }
 .navbar-trans li>a{
 	transition: background-color 0.3s ease;
+}
+.navbar-trans li>a:focus,.navbar-trans li.active {
+    background-color: rgba(47, 32, 38, 0.45);
+    color: #fff;
 }
 /*.navbar-trans li>a:focus,.navbar-trans li.active {
     background-color: #f13f3f;
@@ -24,15 +28,17 @@ body{
     	font-weight: bold;
     }
     section {
-    	padding-top:70px;  
-    	padding-bottom:50px;
+    	/*padding-top:70px;  */
+    	padding-bottom:0px;
     	min-height:100%;
     	min-height:calc(100% - 0);
     	-webkit-transform-style: preserve-3d;
     	-moz-transform-style: preserve-3d;
     	transform-style: preserve-3d;
     }
-
+	#section1{
+		padding-top:70px;
+	}
     #demo{
     	padding: 0px;
     	margin: 0px;
@@ -127,7 +133,8 @@ border-radius: 4px;
 box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
 float: left;
 margin-top: 30px;
-padding: 25px 30px;
+/*padding: 25px 30px;*/
+padding-bottom: 9px;
 position: relative;
 width: 100%;
 }
@@ -318,4 +325,8 @@ box-shadow: none;
 				background-image:none;
 		
 		}
+	#myCar{
+		width:86%;
+		margin: 0 auto;
+	}
     /*Sahil's section ends */
